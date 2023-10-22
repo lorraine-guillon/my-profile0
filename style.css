@@ -1,0 +1,70 @@
+h1 {color: royalblue;
+font-weight: 900;}
+h2 {color: #00A9FF; font-weight: 500;
+opacity: 0.6}
+h1,h2 { font-family: arial}
+body {font-family: Courier;
+	text-align: justify;
+	background-color: #CDF5FD;
+	color: #5D12D2}
+
+
+#Lorraine{
+	width: 400px;}
+
+
+.img-circle {
+	border-radius: 50%; 
+	width: 200px}
+
+.container {
+	width: 700px;
+	margin: 40px auto
+}
+@media (max-width: 760px) {
+	.container
+		width: 600px
+}
+@media (max-width: 500px) {
+	.container
+		width: 400px
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 10px 10px 30px rgba(127,0,255,0.2);
+	border-radius: 5px;
+	margin:20px 0px;
+	text-align: center;
+}
+.btn-blue {
+	font: Calabri;
+	background-color: rgb(194,217,255);
+	color: black;
+	paddind: 15px 20px;
+	border-radius: 5px;
+}
+.btn-blue:hover {
+	background-color:darkblue;
+	color: white;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+.list-horizontal i {
+	font-size: 60px;
+	color: rgb(194,217,255);
+}
+.list-horizontal i:hover {
+	font-size: 60px;
+	color: darkblue;
+}
